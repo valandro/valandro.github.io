@@ -25,6 +25,9 @@ body { margin: 0px;}
     margin-top: 4em;
     background: #81c4ad;
     height: 3em;
+    position:fixed;
+    top:0;
+    width: 100vw;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
