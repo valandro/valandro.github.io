@@ -25,6 +25,9 @@ body { margin: 0px;}
     margin-top: 4em;
     background: #81c4ad;
     height: 3em;
+    position:fixed;
+    top:0;
+    width: 100vw;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
@@ -34,7 +37,7 @@ body { margin: 0px;}
     display: none;
     opacity: 0;
 }
-.links-menu a {
+.links-menu a{
     color: white;
     margin-top: 1em;
     margin-left: 1.5em;
@@ -48,6 +51,12 @@ body { margin: 0px;}
     grid-column: 1 / 4;
     grid-row: 1 / 6;
     height: 100vh;
+}
+.left-menu > p > a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 .right-menu {
     padding: 1em;
