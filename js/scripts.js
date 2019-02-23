@@ -30,8 +30,8 @@ const text = [
         "job": "desenvolverdor Back-End",
         "using": " utilizando ",
         "tech": "Java 10",
-        "activity": " para construção de micro serviços",
-        "ide": "Co fundador da Empresa Júnior IDE.",
+        "activity": " para construção de microsserviços",
+        "ide": "Co-fundador da Empresa Júnior IDE.",
         "info": "Para mais informações:" 
     }
 ];
