@@ -4,7 +4,7 @@ body { margin: 0px;}
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(6,1fr);
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 .mobile-menu {
     display: none;
@@ -24,7 +24,7 @@ body { margin: 0px;}
 .links-menu {
     margin-top: 4em;
     background: #81c4ad;
-    height: 6em;
+    height: 9em;
     position:fixed;
     top:0;
     width: 100vw;
@@ -37,7 +37,7 @@ body { margin: 0px;}
     display: none;
     opacity: 0;
 }
-.links-menu a{
+.links-menu a {
     color: white;
     margin-top: 1em;
     margin-left: 1.5em;
@@ -49,14 +49,16 @@ body { margin: 0px;}
 .left-menu {
     background: #81c4ad;
     grid-column: 1 / 4;
-    grid-row: 1 / 6;
-    height: 100vh;
+    grid-row: 1 / 7;
 }
 .left-menu > p > a {
-    color: white;
     font-size: 1.2em;
+    cursor: pointer;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+}
+.menu-selected {
+    color: #32746D !important;
 }
 .right-menu {
     padding: 1em;
@@ -72,7 +74,7 @@ body { margin: 0px;}
     font-family: 'Montserrat', sans-serif;
     font-size: 3em;
 }
-.right-menu p{
+.right-menu p {
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -95,11 +97,11 @@ body { margin: 0px;}
     height: 3.5rem;
     width: 3.5rem;
     background-color: #495057;
-    color: #fff!important;
+    color: #fff !important;
     border-radius: 100%;
     text-align: center;
     font-size: 1.5rem;
-    line-height: 4rem;
+    line-height: 3.75rem;
     margin-right: 1rem;
 }
 .right-menu a:hover {
@@ -143,7 +145,26 @@ body { margin: 0px;}
 #pt, #en {
     cursor: pointer;
 }
-@media screen and (max-width: 768px){
+.course {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    padding-top: 1em;
+    padding-left: 2em;
+    color: #878C8F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+}
+.course .bagde {
+    grid-column: 1 / 3;
+}
+.badge-img {
+    width: 10.5em;
+}
+.course .course-info {
+    grid-column: 3 / 13;
+}
+@media screen and (max-width: 768px) {
     .container {
         display: block;
     }
@@ -162,5 +183,17 @@ body { margin: 0px;}
     }
     .right-menu .links {
         padding-bottom: 5em;
+    }
+    .right-menu .title {
+        font-size: 2.5em;
+    }
+    .course {
+        grid-template-rows: 1fr 1fr;
+    }
+    .badge {
+        grid-column: 1 / 13;
+    }
+    .course-info {
+        grid-column: 1 / 13 !important;        
     }
 }
