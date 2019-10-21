@@ -1,4 +1,3 @@
-// Constants 
 const EN = 0;
 const PT = 1;
 const menu = [
@@ -39,7 +38,7 @@ const text = [
         "info": "Para mais informações:" 
     }
 ];
-// Functions
+
 function showMenu() {
     const button = document.getElementById('dropdown-menu');
     const links  = document.getElementById('links');
@@ -74,7 +73,6 @@ function changeLanguage() {
     }
 }
 
-// Function for change HTML tags content
 function changeTexts(menu, texts) {
     for(var i in menu) {
         var elements = Array.from(document.getElementsByClassName(i));
