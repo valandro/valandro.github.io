@@ -14,7 +14,7 @@ const menu = [
 ];
 const text = [
     {
-        "age": "I'm 23 years old.",
+        "age": "I'm 24 years old.",
         "student": "Student of ",
         "course": "Computer Engineering at UFRGS",
         "working": "Currently working as a ",
@@ -26,7 +26,7 @@ const text = [
         "info": "For more information:" 
     },
     {
-        "age": "Eu tenho 23 anos de idade.",
+        "age": "Eu tenho 24 anos de idade.",
         "student": "Estudante de ",
         "course": "Engenharia da Computação na UFRGS",
         "working": "Atualmente trabalhando como ",
