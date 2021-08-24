@@ -26,7 +26,7 @@ const text = [
         "info": "For more information:" 
     },
     {
-        "age": "Eu tenho 24 anos de idade.",
+        "age": "Eu tenho 25 anos de idade.",
         "student": "Estudante de ",
         "course": "Engenharia da Computação na UFRGS",
         "working": "Atualmente trabalhando como ",
